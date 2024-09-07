@@ -1,0 +1,1319 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+html , body {
+    overflow-x: hidden;
+}
+/* about banner section start css */
+.about-banner{
+    background-image: url(images/about\ banner.jpg);
+    /* background-size: cover; */
+    background-attachment: fixed;
+    /* background-size: cover; */
+    height: 430px;
+    width: 100%;
+}
+.about-sec-1{
+    position: relative;
+}
+.overlay{
+    background-color: black;
+    height: 430px;
+    width: 100%;
+    position: absolute;
+     top: 0%;
+     left: 0%;
+     right: 0%;
+     bottom: 0%;
+     opacity: 0.6;
+}
+.img-cover-about{
+    width: 100%;
+    height: 430px;
+}
+.about-h{
+    position: absolute;
+    top: 70%;
+    left: 7%;
+    background-color: transparent;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 70px;
+    color: #fff;
+    line-height: 1.2;
+    font-family: "Poppins", Arial, sans-serif;
+}
+/* about banner section css end */
+
+.about-bac-pic{
+    height: 350px;
+    width: 100%;
+    background-image: url(images/about\ detail\ back.jpg);
+    /* background-attachment: fixed; */
+    background-size: cover;
+  
+}
+.about-back-pic-mn{
+    height: 350px;
+    width: 100%;
+    background-color: antiquewhite;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    position: relative;
+}
+.about-overlay2{
+    background-color: black;
+    height: 350px;
+    width: 100%;
+    position: absolute;
+     top: 0%;
+     left: 0%;
+     right: 0%;
+     bottom: 0%;
+     opacity: 0.6;
+    
+}
+.sec-2{
+    position: relative;
+}
+.about-detail-div{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 485px;
+    /* background-color: #1c1c1c; */
+    background-color: rgba(1, 1, 1, .6);
+    border-radius: 10px;
+    position: absolute;
+    top: -20%;
+    left: 15%;
+}
+.detailtext{
+    width: 60% !important;
+    height: 450px;
+    border-radius: 10px;
+}
+.about-detail-pic{
+    width: 40% !important;
+    height: 485px;
+    background-image: url(images/about\ pic.jpg);
+    border-radius: 10px;
+    background-size: cover;
+    clip-path: polygon(29% 0, 100% 0, 100% 100%, 0 100%);
+}
+.about-lg-hide{
+    display: none;
+}
+.SEC-2-AB-HEAD{
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    text-transform: uppercase;
+    color: #e4a758;
+}
+.detail-ab-para{
+    text-align: justify;
+    padding-left: 25px ;
+}
+.detail-ab-para-animat{
+    display: inline-block; /* Ensures the container only takes up necessary space */
+    overflow: hidden; /* Prevents text from overflowing */
+    white-space: nowrap;
+    /* white-space: nowrap; */
+    overflow-x: hidden;
+    animation: typing 3.5s steps(300, end), blink-text .5s step-end infinite;
+}
+.detail-ab-para-animat.typing-complete {
+    white-space: normal; /* Allows text to wrap after the animation */
+    width: auto; /* Resets width to auto after animation */
+    border-right: none; /* Removes cursor after animation */
+}
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+/* section about company css start */
+.aboutsite{
+    margin-bottom: 1%;
+}
+.we{
+    padding-top: 62%;
+}
+.about-para{
+    padding-top: 10%;
+}
+.our{
+    padding-top: 20%;
+    padding-bottom: 10%;
+    
+}
+.cneter{
+    align-items: center;
+    text-align: center;
+}
+.imgab{
+        padding-top: 22%;
+}
+.about-border{
+    border: 1px solid #666666;
+    border-top: 1px solid #333333;
+}
+.cbout-heading{
+    padding-top: 20% ;
+}
+.about-bottom-gap{
+    padding-bottom: 16%;
+}
+/* section about company css end */
+/* facts section start */
+.fact-main-div-about{
+    background-image: url(images/counter\ back.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.chose-us-head{
+    margin-bottom: 3%;
+    margin-left: 3%;
+    padding-top: 5%;
+    color:#e4a758;
+}
+.chose-why{
+    margin-left: 3%;
+    margin-top: 3%;
+    color: #e4a758;
+}
+.chose-para{
+    margin-left: 3%;
+    margin-bottom: 5%;
+    margin-top: 6%;
+}
+.Satisfaction-div{
+    background-color: #0a0a0a;
+    height: 200px;
+    width: 196px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 6px;
+}
+.Satisfaction-icon{
+    font-size: 75px;
+}
+.Satisfaction-head{
+    font-size: large;
+    font-weight: bold;
+}
+.Satisfaction-div2{
+    background-color: #0a0a0a;
+    height: 200px;
+    width: 196px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-top: 5%;
+    border-radius: 6px;
+}
+.Satisfaction-icon2{
+    font-size: 75px;
+}
+.Satisfaction-head2{
+    font-size: large;
+    font-weight: bold;
+}
+.Satisfaction-div3{
+    background-color: #0a0a0a;
+    height: 200px;
+    width: 196px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 6px;
+    
+}
+.Satisfaction-icon3{
+    font-size: 75px;
+}
+.Satisfaction-head3{
+    font-size: large;
+    font-weight: bold;
+}
+.abouting-why{
+   display: grid;
+   justify-content: end;
+}
+.about-modrn{
+    display: grid;
+    align-content: center;
+}
+.sec-why{
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+.sec-why-para{
+    /* background-color: #0e0d0d; */
+    background-color: #0a0a0a;
+
+    margin-left: 2%;
+    height: 100%;
+    border-radius: 6px;
+}
+.about-borgder{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------
+                                           review section start     
+----------------------------------------------------------------------------------------------------------------------------------------------*/
+.review-border{
+    border: 1px solid #333333;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.review-head-div{
+    background-color: #0a0a0a;
+    width: 100%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    height: 350px;
+    border-radius: 3%;
+}
+.Testimonial{
+    font-size: 20px;
+    padding-left: 2%;
+    padding-top: 5%;
+    color: #e4a758;
+}
+.Clients-Say{
+    font-size: 43px;
+    font-weight: 700;
+    padding-left: 2%;
+    color: #e4a758;
+}
+.say-para{
+    padding-left: 2%;
+    padding-top: 3%;
+    padding-right: 2%;
+    color: white;
+}
+.review-main-div{
+    background-color: #0a0a0a;
+    width: 100%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    height: 350px;
+    border-radius: 3%;
+}
+.review-client{
+    height: 100px !important;
+    width: 100px !important;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.review{
+    margin-left: 3%;
+}
+.client-name{
+    font-weight: 500;
+    font-size: xx-large;
+    padding-left: 3%;
+    color: #e4a758;
+}
+.Profession{
+    padding-left: 3%;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------
+                                           sweeper for review section css start     
+----------------------------------------------------------------------------------------------------------------------------------------------*/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  /* text-align: center; */
+  font-size: 18px;
+  background-color: #0a0a0a;
+  border-radius: 3%;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.swiper-slide img {
+  /* display: block; */
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                                   About page css end 
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                                 COMMERCIAL PAGE CSS START 
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                                  COMMERCIAL PAGE CSS Banner 
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#commercial-body{
+    background-color: black;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.Commercial-about-banner{
+    background-image: url(images/commercial\ banner\ image.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 430px;
+    width: 100%;
+}
+.Commercial-about-sec-1{
+    position: relative;
+}
+.Commercial-overlay{
+    background-color: black;
+    height: 430px;
+    width: 100%;
+    position: absolute;
+     top: 0%;
+     left: 0%;
+     right: 0%;
+     bottom: 0%;
+     opacity: 0.6;
+}
+.commercial-heading{
+    position: absolute;
+    top: 70%;
+    left: 7%;
+    background-color: transparent;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 70px;
+    color: #fff;
+    line-height: 1.2;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.OUR-WORK-COMMERCIAL{
+    position: absolute;
+    top: 64%;
+    left: 8%;
+    background-color: transparent;
+    color: #e4a758;
+    
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                                  COMMERCIAL PAGE CSS OUR BUSINESS IS MAKING YOURS SUCCEED 
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+.main-sec-cmmercial{
+    margin-top: 8%;
+    margin-bottom: 3%;
+    border: 1px solid #333333;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.cmc-bs-mak-main{
+    background-color:  #0a0a0a;
+    border-radius: 10PX;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+.business-heading{
+    color: #e4a758;
+    padding-top: 6%;
+    padding-left: 4%;
+    padding-bottom: 3%;
+    padding-right: 4%;   
+    font-size: 50px;
+}
+.cammercial-business-para{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.cammercial-business-para2{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 6%;
+}
+.commercial-business-con{
+    background-color: #0a0a0a;
+    margin-top: 27%;
+    margin-left: 20%;
+    margin-bottom: 15%;
+}
+.commercial-busi-image{
+    height: 180px;
+    width: 150px;
+    margin-top: -20%;
+    margin-left: 15%;
+    border-radius: 7px;
+}
+.commercial-contact-name{
+    margin-left: 15%;
+    margin-top: 2%;
+    color: #e4a758;
+}
+.cont-com-position{
+    margin-left: 15%;
+    margin-top: -3%;
+}
+.cont-com-adrs{
+    margin-left: 15%;
+    line-height: 18px;
+}
+.commercial-contact-icone{
+    margin-left: 15%;
+    letter-spacing: 20px;
+    padding-bottom: 15%;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                                  COMMERCIAL PAGE CSS OUR BUSINESS IS MAKING YOURS SUCCEED 
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+.commercial-para-sec{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.commercial-para-main-div{
+    width: 95%;
+    border-top: 1px solid #222222;
+    border-bottom: 1px solid #222222;
+    margin-bottom: 5%;
+}
+.commercial-pic-div{
+    background-image: url(images/1320df6b071bf7fd198022f6f18dc65e.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 356px;
+    margin-bottom: 5%;
+    position: relative;
+}
+.commercial-para-overlay{
+    background-color: rgba(1, 1, 1, .7);
+    width: 100%;
+    height: 360px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.commercial-long-heading-para{
+    text-align: center;
+    padding-top: 5%;
+    color: #e4a758;
+    position: relative;
+    z-index: 3;
+}
+.commercial-para{
+    padding-top: 3%;
+    text-align: center;
+    padding-bottom: 5%;
+    position: relative;
+    z-index: 3;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                              COMMERCIAL PAGE CSS Experiences 
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+.experience-pic-div{
+    width: 100%;
+    height: 660px;
+    margin-top: 13%;
+    margin-bottom: 13%;
+    margin-left: -1px;
+    background-color: #666666;
+    background-image: url(images/experince.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    position: relative;
+}
+.experience-overlay{
+    background-color: rgba(1, 1, 1, .7);
+    width: 100%;
+    height: 660px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.experience-pic{
+    
+    
+}
+.experience-heading{
+    font-size: 40px;
+    padding-left: 4%;
+    color: #e4a758;
+    margin-top: 12%;
+}
+.experience-detail-para{
+    padding-left: 4%;
+    padding-top: 4%;
+}
+.experince-list-item{
+    padding-left: 8%;
+    line-height: 40px;
+    font-size: larger;
+    font-weight: 500;
+}
+.experience-long-para-div{
+    width: 95%;
+    background-color: #070707;
+    margin-left: 5%;
+    margin-top: 7%;
+    border-left: 3px solid #e4a758;
+}
+.main-sec-cmmercial-experience{
+    margin-top: 8%;
+    margin-bottom: 3%;
+    border: 1px solid #333333;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.experience-para{
+    font-size: x-large;
+    font-weight: 400;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                              COMMERCIAL PAGE CSS Experiences 2
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+.main-sec-exp2{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.main-picture-exp2{
+    width: 100%;
+    height: 900px;
+    position: relative;
+    background-color: aqua;
+}
+.exp2-overlay{
+    width: 100%;
+    height: 900px;
+    background-color: rgba(1, 1, 1, .7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.exp2-pic{
+    width: 100%;
+    height: 900px;
+    background-image: url(images/imageexpdetail.webp);
+    background-position: center;
+    background-size: cover;
+}
+.exp2-detail-para-div{
+    background-color: #0a0a0a;
+    width: 125%;
+    margin-left: -30%;
+    border-top: 3px solid #e4a758;
+    z-index: 1000;
+}
+.exp2-detail-main-para{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-content: center;
+}
+.head-exp2{
+    font-weight: 700;
+    padding-top: 20%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+.exp-pa{
+    padding-left: 10%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-right: 10%;
+}
+.exp-pa2{
+    padding-left: 10%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-bottom: 15%;
+    padding-right: 10%;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                              COMMERCIAL PAGE CSS Your Success Starts with Smart Design 
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+.smart-design-para-main-div{
+    background-color: #0a0a0a;
+    width: 100%;
+    border-top: 3px solid #e4a758;
+}
+.SMART-heading{
+    margin-left: 15%;
+    padding-top: 14%;
+    margin-right: 25%;
+}
+.smart-design-para{
+    margin-right: 32%;
+    margin-left: 15%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+}
+.smart-design-picture-main-div{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-content: center;
+}
+.smart-design-pic-div{
+    height: 400px;
+    width: 120%;
+    margin-left: -25%;
+    position: relative;
+}
+.smart-design-pic{
+    margin-left: -25%;
+    height: 400px;
+    width: 120%;
+    background-image: url(images/sm.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+.smart-design-overlay{
+    margin-left: -25%;
+    width: 120%;
+    border-radius: 8px;
+    height: 400px;
+    background-color: rgba(1, 1, 1, .7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;   
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                              COMMERCIAL PAGE CSS Your Success Starts with Smart Design 
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+.feuture-sec{
+    background-color: #070707;
+    margin-top: 6%;
+}
+.heading-feuture-project{
+    padding-top: 2%;
+    padding-left: 9%;
+}
+.our-work-feuture-project{
+    color: #e4a758;
+}
+.feuture-project{
+    padding-top: 1%;
+    letter-spacing: 2px;
+}
+.div-for-outer-overlay{
+    margin-top: 5%;
+}
+.feuture-project-image{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+}
+.feuture-overlay{
+    background-color: rgba(1, 1, 1, .7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0%;
+    right: 0;
+}
+.div-for-outer-overlay:hover .feuture-overlay{
+    background-color: rgba(1, 1, 1, .7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+
+}
+.div-for-outer-overlay{
+   position: relative;
+}
+.outer-overlay{
+    background-color: #e4a758;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 100%;
+    bottom: 0%; 
+}
+.div-for-outer-overlay:hover .outer-overlay{ 
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(228, 167, 88, .8);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+.projetnam{
+    display: none;
+}
+.div-for-outer-overlay:hover .projetnam{
+    display: block;
+    color: whitesmoke;
+}
+#feuture-commercial{
+    padding-bottom: 8%;
+    margin-bottom: 5%;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                                          residential page css start
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                                          residential page css start
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                                          residential page css start
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                                          residential page css start
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#commercial-body{
+    background-color: black;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.residential-about-banner{
+    background-image: url(images/residential\ banner.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 430px;
+    width: 100%;
+}
+.Commercial-about-sec-1{
+    position: relative;
+}
+.Commercial-overlay{
+    background-color: black;
+    height: 430px;
+    width: 100%;
+    position: absolute;
+     top: 0%;
+     left: 0%;
+     right: 0%;
+     bottom: 0%;
+     opacity: 0.6;
+}
+.commercial-heading{
+    position: absolute;
+    top: 70%;
+    left: 7%;
+    background-color: transparent;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 70px;
+    color: #fff;
+    line-height: 1.2;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.OUR-WORK-COMMERCIAL{
+    position: absolute;
+    top: 64%;
+    left: 8%;
+    background-color: transparent;
+    color: #e4a758;
+    
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                                  COMMERCIAL PAGE CSS OUR BUSINESS IS MAKING YOURS SUCCEED 
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+.main-sec-cmmercial{
+    margin-top: 8%;
+    margin-bottom: 3%;
+    border: 1px solid #333333;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.cmc-bs-mak-main{
+    background-color:  #0a0a0a;
+    border-radius: 10PX;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+.business-heading{
+    color: #e4a758;
+    padding-top: 6%;
+    padding-left: 4%;
+    padding-bottom: 3%;
+    padding-right: 4%;   
+    font-size: 50px;
+}
+.cammercial-business-para{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.cammercial-business-para2{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 6%;
+}
+.commercial-business-con{
+    background-color: #0a0a0a;
+    margin-top: 27%;
+    margin-left: 20%;
+    margin-bottom: 15%;
+}
+.commercial-busi-image{
+    height: 180px;
+    width: 150px;
+    margin-top: -20%;
+    margin-left: 15%;
+    border-radius: 7px;
+}
+.commercial-contact-name{
+    margin-left: 15%;
+    margin-top: 2%;
+    color: #e4a758;
+}
+.cont-com-position{
+    margin-left: 15%;
+    margin-top: -3%;
+}
+.cont-com-adrs{
+    margin-left: 15%;
+    line-height: 18px;
+}
+.commercial-contact-icone{
+    margin-left: 15%;
+    letter-spacing: 20px;
+    padding-bottom: 15%;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                                  COMMERCIAL PAGE CSS OUR BUSINESS IS MAKING YOURS SUCCEED 
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+.commercial-para-sec{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.commercial-para-main-div{
+    width: 95%;
+    border-top: 1px solid #222222;
+    border-bottom: 1px solid #222222;
+    margin-bottom: 5%;
+}
+.commercial-pic-div{
+    background-image: url(images/1320df6b071bf7fd198022f6f18dc65e.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 356px;
+    margin-bottom: 5%;
+    position: relative;
+}
+.commercial-para-overlay{
+    background-color: rgba(1, 1, 1, .7);
+    width: 100%;
+    height: 360px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.commercial-long-heading-para{
+    text-align: center;
+    padding-top: 5%;
+    color: #e4a758;
+    position: relative;
+    z-index: 3;
+}
+.commercial-para{
+    padding-top: 3%;
+    text-align: center;
+    padding-bottom: 5%;
+    position: relative;
+    z-index: 3;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                              COMMERCIAL PAGE CSS Experiences 
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+.residential-experience-pic-div{
+    width: 100%;
+    height: 660px;
+    margin-top: 13%;
+    margin-bottom: 13%;
+    margin-left: -1px;
+    background-color: #666666;
+    background-image: url(images/exp\ res.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    position: relative;
+}
+.experience-overlay{
+    background-color: rgba(1, 1, 1, .7);
+    width: 100%;
+    height: 660px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.experience-pic{
+    
+    
+}
+.experience-heading{
+    font-size: 40px;
+    padding-left: 4%;
+    color: #e4a758;
+    margin-top: 12%;
+}
+.experience-detail-para{
+    padding-left: 4%;
+    padding-top: 4%;
+}
+.experince-list-item{
+    padding-left: 8%;
+    line-height: 40px;
+    font-size: larger;
+    font-weight: 500;
+}
+.experience-long-para-div{
+    width: 95%;
+    background-color: #070707;
+    margin-left: 5%;
+    margin-top: 7%;
+    border-left: 3px solid #e4a758;
+}
+.main-sec-cmmercial-experience{
+    margin-top: 8%;
+    margin-bottom: 3%;
+    border: 1px solid #333333;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.experience-para{
+    font-size: x-large;
+    font-weight: 400;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    position: relative;
+    color: white;
+}
+.exp-para-overlay{
+    position: relative;
+}
+.overlay-exp{
+    background-color: #e4a758;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    box-shadow: 0px 0px 1px  #e4a758;
+    transition: ease 0.5s;
+}
+.exp-para-overlay:hover .overlay-exp{
+    background-color:  #e4a758;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0px 0px 20px  #a07c4d;
+
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                              COMMERCIAL PAGE CSS Dream Home
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+.main-sec-exp2{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.main-picture-exp2{
+    width: 100%;
+    height: 900px;
+    position: relative;
+    background-color: aqua;
+}
+.exp2-overlay{
+    width: 100%;
+    height: 900px;
+    background-color: rgba(1, 1, 1, .7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.exp2-pic{
+    width: 100%;
+    height: 900px;
+    background-image: url(images/imageexpdetail.webp);
+    background-position: center;
+    background-size: cover;
+}
+.exp2-detail-para-div{
+    background-color: #0a0a0a;
+    width: 125%;
+    margin-left: -30%;
+    border-top: 3px solid #e4a758;
+    z-index: 1000;
+    position: relative;
+}
+.dream-home-overlay{
+    background-color: #e4a758;
+    z-index: 1100;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    box-shadow: 0px 0px 20px  #a07c4d;
+    transition: ease 0.5s;
+}
+.exp2-detail-main-para :hover .dream-home-overlay{
+    background-color: #e4a758;
+    z-index: 1100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0px 0px 20px  #a07c4d;
+}
+.exp2-detail-main-para{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-content: center;
+}
+.head-exp2{
+    position: relative;
+    z-index: 1300;
+    font-weight: 700;
+    padding-top: 20%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+.dream-home{
+    color: #e4a758;
+    position: relative;
+    z-index: 1300;
+}
+.exp2-detail-main-para :hover .dream-home{
+    color: white;
+    position: relative;
+    z-index: 1300;
+}
+.exp-pa{
+    position: relative;
+    z-index: 1300;
+    padding-left: 10%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-right: 10%;
+}
+.exp-pa2{
+    position: relative;
+    z-index: 1300;
+    padding-left: 10%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-bottom: 15%;
+    padding-right: 10%;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                              COMMERCIAL PAGE CSS Your Success Starts with Smart Design 
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+.smart-design-para-main-div{
+    background-color: #0a0a0a;
+    width: 100%;
+    border-top: 3px solid #e4a758;
+    position: relative;
+}
+.smart-desige-overlay{
+    background-color: #e4a758;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 100%;
+    transition: ease 0.5s;
+}
+.SMART-heading{
+    position: relative;
+    margin-left: 15%;
+    padding-top: 14%;
+    margin-right: 25%;
+}
+.with-Smart-Design{
+    color: #e4a758;
+    position: relative;
+}
+.smart-design-overlay-di :hover .with-Smart-Design{
+    color: white;
+    position: relative;
+}
+.smart-design-para{
+    position: relative;
+    margin-right: 32%;
+    margin-left: 15%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+}
+.smart-design-overlay-di :hover .smart-desige-overlay{
+    background-color: #e4a758;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    box-shadow: 0px 0px 20px  #a07c4d;
+}
+.smart-design-picture-main-div{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-content: center;
+}
+.smart-design-pic-div{
+    height: 400px;
+    width: 120%;
+    margin-left: -25%;
+    position: relative;
+}
+.residential-smart-design-pic{
+    margin-left: -25%;
+    height: 400px;
+    width: 120%;
+    background-image: url(images/dream\ home.jfif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+.smart-design-overlay{
+    margin-left: -25%;
+    width: 120%;
+    border-radius: 8px;
+    height: 400px;
+    background-color: rgba(1, 1, 1, .7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;   
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------
+                                              COMMERCIAL PAGE CSS Your Success Starts with Smart Design 
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+.feuture-sec{
+    background-color: #070707;
+    margin-top: 6%;
+}
+.heading-feuture-project{
+    padding-top: 2%;
+    padding-left: 9%;
+}
+.our-work-feuture-project{
+    color: #e4a758;
+}
+.feuture-project{
+    padding-top: 1%;
+    letter-spacing: 2px;
+}
+.div-for-outer-overlay{
+    margin-top: 5%;
+}
+.feuture-project-image{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+}
+.feuture-overlay{
+    background-color: rgba(1, 1, 1, .7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0%;
+    right: 0;
+}
+.div-for-outer-overlay:hover .feuture-overlay{
+    background-color: rgba(1, 1, 1, .7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+
+}
+.div-for-outer-overlay{
+   position: relative;
+}
+.outer-overlay{
+    background-color: #e4a758;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 100%;
+    bottom: 0%; 
+}
+.div-for-outer-overlay:hover .outer-overlay{ 
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(228, 167, 88, .8);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+.projetnam{
+    display: none;
+}
+.div-for-outer-overlay:hover .projetnam{
+    display: block;
+    color: whitesmoke;
+}
+#feuture-commercial{
+    padding-bottom: 8%;
+    margin-bottom: 5%;
+}
